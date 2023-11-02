@@ -7,6 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale =1">
         <link href="https://fonts.googleapis.com/css2?
         family=Kaushan+Script&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+        <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script> -->
+
     </head>
     <body>
         <section id="banner">
@@ -23,11 +26,11 @@
         <div id="sideNav">
             <nav>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">FEATURES</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">TESTIMONIALS</a></li>
-                    <li><a href="#">MEET US</a></li>
+                    <li><a href="banner">HOME</a></li>
+                    <li><a href="features">FEATURES</a></li>
+                    <li><a href="service">SERVICES</a></li>
+                    <li><a href="testimonial">TESTIMONIALS</a></li>
+                    <li><a href="footer">MEET US</a></li>
                 </ul>
             </nav>
         </div>
@@ -145,27 +148,75 @@
             </div>
             <div class="testimonial-row">
                 <div class="testimonial-col">
-                    <h5>Joe David</h5>
+                    <div class="user">
+                        <img src="images/img 6.jpg" alt="">
+                        <div class="user-info">
+                            <h4>Sarah Hassan <i class="fa fa-twitter"></i></h4>
+                            <small>@sarahhassan</small>
+                        </div>
+                    </div>
                     <p>After carefully reading the reviews on this website, I can say it is 99.9% accurate,
                         the hopital I visted from this page was worth it, the reviews here helped me decide on
                         the best Hospital to take my kids to, a big thank you to life-link!.
                     </p>
                 </div>
                 <div class="testimonial-col">
-                    <h5>Sarah Hassan</h5>
+                    <div class="user">
+                        <img src="images/verve coffee.png" alt="">
+                        <div class="user-info">
+                            <h4>Matthew Yakubu <i class="fa fa-twitter"></i></h4>
+                            <small>@matthewyakubu</small>
+                        </div>
+                    </div>
                     <p> Through life-link, I have been able to make informed decisions health decisions for me and my family,
                         and getting more accurate health news to help me stay informed.
                     </p>
                 </div>
                 <div class="testimonial-col">
-                    <h5>Emily Allen</h5>
-                    <p>As a foeigner living in Abuja Nigeria, I don't always know the best place to get accurate health informaations, however,
-                        the hopital I visted from this page was worth it, the reviews here helped me decide on
-                        the best Hospital to use, Amazing work to life-link team!.
+                    <div class="user">
+                        <img src="images/marina.jpg" alt="">
+                        <div class="user-info">
+                            <h4>Emily Allen<i class="fa fa-twitter"></i></h4>
+                            <small>@emilyallen</small>
+                        </div>
+                    </div>
+                    <p>As a foeigner living in Abuja Nigeria, I don't always know the best place to get accurate health informaations, 
+                        the reviews here helped me decide on the best Hospital to use, Amazing work to life-link team!.
                     </p>
                 </div>
             </div>
 
+        </section>
+
+        <!-- footer -->
+
+        <section id="footer">
+            <img src="images/footer.png" alt="" class="footer-img"> 
+            <div class="title-text">
+                <p>CONTACT</p> 
+                <h1>Subcribe and reach out to us!</h1>
+            </div>
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Subscribe today!</h1>
+                    <p><i class="fa fa-subscribe"></i>For providers - <a href="#"><span></span>Click here</a></p>
+                    <p><i class="fa fa-subscribe"></i>For Update and news - <a href="#"><span></span>Click here</a></p>
+                </div>
+                <div class="footer-right">
+                    <h1>Get In Touch!</h1>
+                    <p><i class="fa fa-location"></i>#30 abc plaza, city street Abuja.</p>
+                    <p><i class="fa fa-paperplane"></i>lifelink@healthdirectory.org</p>
+                    <p><i class="fa fa-phone"></i>+234-980-073-0764</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube-play"></i>
+                <p>Copyright Lifelink Project-ALU for learning purpose</p>
+            </div>
 
         </section>
 
@@ -187,6 +238,11 @@
                 menu.src = "images/menu.jpg";
                 }
         }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 1000,
+	        speedAsDuration: true
+            });
         </script>
 
     </body>
