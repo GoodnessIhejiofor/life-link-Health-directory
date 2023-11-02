@@ -262,6 +262,9 @@ hr{
     opacity: 1;
 
 }
+.single-service a{
+    color: #fff;
+}
 @media screen and (max-width: 770px){
     .single-service{
         flex-basis: 100%;
