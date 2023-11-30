@@ -11,9 +11,23 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/reviews.css" />
   </head>
+  <div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/features.html">FEATURES</a></li>
+            <li><a href="services.html">STAY INFORMED</a></li>
+            <li><a href="/reviews.html">REVIEWS</a></li>
+            <li><a href="/team.html">MEET US</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menubutton">
+    <img src="/images/menu.jpg" id="menu">
+</div>
   <body>
     <section>
-      
+
       <div class="title-text">
         <p>REVIEWS</p> 
         <h1>Hear from our community</h1>
@@ -39,5 +53,28 @@
       </div>
      </form>
   </section> -->
+  <script>
+    var menubutton = document.getElementById("menubutton")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menubutton.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right = "0";
+            menu.src = "images/close.png";
+        } 
+        else {
+            sideNav.style.right = "-250px";
+            menu.src = "images/menu.jpg";
+            }
+    }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 1000,
+      speedAsDuration: true
+        });
+    </script>
   </body>
 </html>
