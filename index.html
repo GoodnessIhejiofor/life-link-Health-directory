@@ -1,251 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Lifelink Health directory: A guide to making informed heath decisions</title>
-        <link rel="stylesheet" href="/styles.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale =1">
-        <link href="https://fonts.googleapis.com/css2?
-        family=Kaushan+Script&family=Poppins:wght@200&display=swap" rel="stylesheet">
+<html lang="en">
 
-        
+<head>
+    <meta charset="UTF-8">
+    <title>Signup | Lifelink </title>
+    <link rel="stylesheet" href="/register.css">
+    <!-- <link rel="stylesheet" href="../designs/register.css"> -->
 
-        <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script> -->
 
-    </head>
-    <body>
-        <section id="banner">
-            <img src="/images/Lifelink_logo.png" class="logo">
-            <div class="banner-text">
-                <h1>Lifelink Health Directory!</h1>
-                <p>Helping you make informed health decisions.</p>
-                <div class="banner-button">
-                    <a href="/register.html"><span></span>Find Out</a>
-                    <a href="/services.html"><span></span>Read More</a>
-                </div>
+</head>
+
+<body>
+    <section id="banner">
+        <img src="/images/Lifelink_logo.png" class="logo">
+        <!-- <div class="banner-text">
+            <h1>Lifelink Health Directory!</h1>
+            <p>Helping you make informed health decisions.</p>
+        </div> -->
+
+        <div class="background"></div>    
+         <div class="container">
+    
+        <form class="form" action="/login.html">
+            <p class="title">Register your account</p>
+            <p class="message">Sign up now! </p>
+            <div class="flex">
+                <label>
+                    <input required="" placeholder="" type="text" class="input" name="firstname">
+                    <span>Firstname</span>
+                </label>
+    
+                <label>
+                    <input required="" placeholder="" type="text" class="input" name="lastname">
+                    <span>Lastname</span>
+                </label>
             </div>
-        </section>
-        <div id="sideNav">
-            <nav>
-                <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="/features.html">FEATURES</a></li>
-                    <li><a href="services.html">STAY INFORMED</a></li>
-                    <li><a href="/reviews.html">REVIEWS</a></li>
-                    <li><a href="/team.html">MEET US</a></li>
-                </ul>
-            </nav>
+
+            <label>
+                <input required="" placeholder="" type="email" class="input" name="email">
+                <span>Email</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="text" class="input" name="phone_number">
+                <span>Phone number</span>
+            </label>
+
+            <label>
+                <input required="" placeholder="" type="password" class="input" name="password">
+                <span>Password</span>
+            </label>
+            <button class="submit">Submit</button>
+            <p class="signin">Already have an account ? <a href="/login.html">Sign in</a> </p>
+            <!-- <p class="signin"> <a href="/">Back to home</a> </p> -->
+
+        </form>
         </div>
-        <div id="menubutton">
-            <img src="/images/menu.jpg" id="menu">
-        </div>
-        
-        <!-- features -->
-
-        <section id="features">
-        <div class="title-text">
-        <p>FEATURES</p> 
-        <h1>Why Choose This Provider?</h1>
-        </div>
-        <div class="feature-box">
-            <div class="features">
-                <h1>Services Provided</h1>
-                <div class="features-desc">
-                    <div class="features-icon">
-                        <i class="fa fa-user-md"></i>
-                    </div>
-                    <div class="features-text">
-                        <p>The DUCHESS Hospital provides all the basic health care services and more with a total of up to 30 different services rendered.
-                        </p>
-                    </div>
-                </div>
-                <h1>Survival Rate</h1>
-                <div class="features-desc">
-                    <div class="features-icon">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                    </div>
-                    <div class="features-text">
-                        <p>This health care provider has a 95% in-patient survival rate.
-                        </p>
-                    </div>
-                </div>
-                <h1>Cost Of Service</h1>
-                <div class="features-desc">
-                    <div class="features-icon">
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                    </div>
-                    <div class="features-text">
-                        <p>Reviews shows that the cost of service rendered here is quite high.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="features-img">
-                <img src="/images/Duchess-Hospital.png" alt="Hospital building" srcset="">
-            </div>
-        </div>
-        </section>
-
-        <!-- Service -->
-        <section id="service">
-            <div class="title-text">
-                <p>SERVICES</p> 
-                <h1>Stay informed</h1>
-            </div>
-            <div class="service-box">
-                <div class="single-service">
-                    <img src="/images/img 7.jpg">
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <h3>Malaria Vaccine implementation</h3>
-                        <hr>
-                        <p><a href="https://www.weforum.org/agenda/2023/04/top-health-stories-global-africa-malaria-vaccine-april-26/">African Nations to approve the use of Malaria vaccine,
-                            an approach to use in the fight against Malaria.</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="single-service">
-                    <img src="/images/img 12.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <h3>Has health issues skyrocketed in Abuja?</h3>
-                        <hr>
-                        <p><a href="https://www.thecable.ng/more-nigerians-falling-into-poverty-due-to-ill-health-says-who">African Nations to approve the use of Malaria vaccine,
-                            an approach to use in the fight against Malaria.</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="single-service">
-                    <img src="/images/img 17.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <h3>December 1st 2023; world AIDS day!</h3>
-                        <hr>
-                        <p><a href="https://www.hiv.gov/blog/world-aids-day-35-remember-and-commit">Here is what you should know about world's AIDS day,
-                            and the how to help those living with HIV/AIDS around you.</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="single-service">
-                    <img src="/images/img 14.jpg" alt="">
-                    <div class="overlay"></div>
-                    <div class="service-desc">
-                        <h3>Women's Health!</h3>
-                        <hr>
-                        <p><a href="https://www.cnbctv18.com/healthcare/menstruation-and-women-health-in-india-from-a-servicedesigners-lens-18188721.htm"> Studies have shown that a rising number of health issues has been recorded,
-                            especially in women between the ages of 18-29, and here is why.</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- TESTIMONIALS -->
-
-        <section id="testimonial">
-            <div class="title-text">
-                <p>TESTIMONIALS</p> 
-                <h1>What Clients Says!</h1>
-            </div>
-            <div class="testimonial-row">
-                <div class="testimonial-col">
-                    <div class="user">
-                        <img src="/images/img 6.jpg" alt="">
-                        <div class="user-info">
-                            <h4>Sarah Hassan <i class="fa fa-twitter"></i></h4>
-                            <small>@sarahhassan</small>
-                        </div>
-                    </div>
-                    <p>After carefully reading the reviews on this website, I can say it is 99.9% accurate,
-                        the hospital I visted from this page was worth it, the reviews here helped me decide on
-                        the best Hospital to take my kids to, a big thank you to life-link!.
-                    </p>
-                </div>
-                <div class="testimonial-col">
-                    <div class="user">
-                        <img src="/images/verve coffee.png" alt="">
-                        <div class="user-info">
-                            <h4>Matthew Yakubu <i class="fa fa-twitter"></i></h4>
-                            <small>@matthewyakubu</small>
-                        </div>
-                    </div>
-                    <p> Through life-link, I have been able to make informed decisions health decisions for me and my family,
-                        and getting more accurate health news to help me stay informed.
-                    </p>
-                </div>
-                <div class="testimonial-col">
-                    <div class="user">
-                        <img src="/images/marina.jpg" alt="">
-                        <div class="user-info">
-                            <h4>Emily Allen<i class="fa fa-twitter"></i></h4>
-                            <small>@emilyallen</small>
-                        </div>
-                    </div>
-                    <p>As a foeigner living in Abuja Nigeria, I don't always know the best place to get accurate health informaations, 
-                        the reviews here helped me decide on the best Hospital to use, Amazing work to life-link team!.
-                    </p>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- footer -->
-
-        <section id="footer">
-            <img src="/images/footer.png" alt="" class="footer-img"> 
-            <div class="title-text">
-                <p>CONTACT</p> 
-                <h1>Subcribe and reach out to us!</h1>
-            </div>
-            <div class="footer-row">
-                <div class="footer-left">
-                    <h1>Subscribe today!</h1>
-                    <p><i class="fa fa-subscribe"></i>For providers - <a href="/register.html"><span></span>Register with us today</a></p>
-                    <p><i class="fa fa-subscribe"></i>For Update and news - <a href="/login.html"><span></span>Login to stay connected</a></p>
-                </div>
-                <div class="footer-right">
-                    <h1>Get In Touch!</h1>
-                    <p><i class="fa fa-location"></i>#30 abc plaza, city street Abuja.</p>
-                    <p><i class="fa fa-paperplane"></i>lifelink@healthdirectory.org</p>
-                    <p><i class="fa fa-phone"></i>+234-980-073-0764</p>
-                </div>
-            </div>
-
-            <div class="social-links">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-youtube-play"></i>
-                <p>Copyright Lifelink Project-ALU for learning purpose</p>
-            </div>
-
-        </section>
-
-
-        <script>
-        var menubutton = document.getElementById("menubutton")
-        var sideNav = document.getElementById("sideNav")
-        var menu = document.getElementById("menu")
-
-        sideNav.style.right = "-250px";
-
-        menubutton.onclick = function(){
-            if(sideNav.style.right == "-250px"){
-                sideNav.style.right = "0";
-                menu.src = "images/close.png";
-            } 
-            else {
-                sideNav.style.right = "-250px";
-                menu.src = "images/menu.jpg";
-                }
-        }
-
-        var scroll = new SmoothScroll('a[href*="#"]', {
-	        speed: 1000,
-	        speedAsDuration: true
-            });
-        </script>
-
-    </body>
+    </section>
+</body>
 </html>
