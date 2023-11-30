@@ -7,6 +7,36 @@
   body {
     background-color: #a13f3f;
   }
+  .title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #fbfafa;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#973b3b, white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title-text h1{
+    font-size: 30px;
+}
+
   .wrapper {
     background-color: #ffffff;
     position: absolute;
@@ -27,6 +57,14 @@
     margin: auto;
     padding: 1.8em 1.2em;
   }
+/* .reviewbox{
+  color: #8c8c90;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  position: absolute;
+} */
   .wrapper button {
     font-size: 1.8em;
     height: 2.2em;
@@ -37,7 +75,7 @@
     top: 0;
     bottom: 0;
     border: none;
-    color: #0a69ed;
+    color: rgb(122, 42, 42);
     box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
     cursor: pointer;
     border-radius: 50%;

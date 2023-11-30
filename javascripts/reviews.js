@@ -28,6 +28,13 @@ const testimonials = [
       testimonial:
         "As a foeigner living in Abuja Nigeria, I don't always know the best place to get accurate health informaations, the reviews here helped me decide on the best Hospital to use, Amazing work to life-link team!",
     },
+    {
+      name: "Lets here from you",
+      job: "Drop A Review",
+      // image: "img 5.jpg",
+      testimonial:
+        "Join the community, drop a review...",
+    },
   ];
   
   //Current Slide
